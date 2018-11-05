@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>blog233</display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.nianyuan.blogs.web.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Logon</servlet-name>
+    <servlet-class>com.nianyuan.blogs.web.Logon</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ListTalk</servlet-name>
+    <servlet-class>com.nianyuan.blogs.web.servlet.ListTalk</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddTalk</servlet-name>
+    <servlet-class>com.nianyuan.blogs.web.servlet.AddTalk</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditTalk</servlet-name>
+    <servlet-class>com.nianyuan.blogs.web.servlet.EditTalk</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Updata</servlet-name>
+    <servlet-class>com.nianyuan.blogs.web.servlet.Updata</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteTalk</servlet-name>
+    <servlet-class>com.nianyuan.blogs.web.servlet.DeleteTalk</servlet-class>
+  </servlet>
+  
+  
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/servlet/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Logon</servlet-name>
+    <url-pattern>/servlet/Logon</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ListTalk</servlet-name>
+    <url-pattern>/servlet/ListTalk</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddTalk</servlet-name>
+    <url-pattern>/servlet/AddTalk</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditTalk</servlet-name>
+    <url-pattern>/servlet/EditTalk</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Updata</servlet-name>
+    <url-pattern>/servlet/Updata</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteTalk</servlet-name>
+    <url-pattern>/servlet/DeleteTalk</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
